@@ -8,7 +8,7 @@ terraform {
 }
 
 provider "aws" {
-  region = "us-wast-2"
+  region = "us-west-2"
 }
 
 resource "aws_instance" "my_ec2" {
